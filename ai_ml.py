@@ -1,4 +1,3 @@
-import kagglehub
-# Download latest version
-path = kagglehub.dataset_download("krishnanshverma/imdb-movies-dataset")
+import pandas as pd
 
+data = pd.read_csv('Electric_Vehicle_Population_Data.csv')
